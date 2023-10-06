@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+ 
+<html lang = "pt-br">
+ <head>
+ <meta charset = "utf-8">
+ <meta name = "viewport" content = "idth-device-width, initial = scale 1.0">
+
+ <title> Formulário em HTML </title>
+ <meta name="description" content="conta - formulário em HTML">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+ </head>
+
+ <body>
+  <h1> Crie uma Nova Conta</h1> 
+
+ 
+<form action="conta.html" method="post">
+
+<fieldset>
+<h2> Conta</h2> 
+<br>
+<tr>
+   <td>
+    <label for="nome">. Nome: </label>
+   </td>
+
+   <td>
+    <input type="text" name="nome">
+   </td>
+</tr>
+</br>
+<br>
+<tr>
+   <td>
+    <label for="sobrenome">. Sobrenome: </label>
+   </td>
+
+   <td>
+    <input type="text" name="sobrenome">
+   </td>
+</tr>
+</br>
+<br>
+<tr>
+   <td>
+    <label for="email">. E-mail: </label>
+   </td>
+
+   <td>
+    <input type="text" name="email">
+   </td>
+</tr>
+</br>
+
+<br>
+<tr>
+   <td>
+    <label for="pass">. Senha: </label>
+   </td>
+
+   <td>
+    <input type="password" name="pass">
+   </td>
+</tr>
+</br>
+
+<br>
+<tr>
+   <td>
+    <label for="passconfirm">. Repita a senha: </label>
+   </td>
+
+   <td>
+    <input type="password" name="passconfirm">
+   </td>
+</tr>
+</br>
+ </table>
+</fieldset>
+
+<br />
+
+<!------->
+<fieldset>
+
+<tr>
+
+ <h2> Endereço</h2> 
+
+ <br>
+<tr>
+   <td>
+    <label for="rua">. Logradouro:</label>
+   </td>
+   <td>
+    <input type="text" name="rua">
+   </td>
+</tr>
+</br>
+
+<br>
+<tr>
+   <td>
+    <label for="complemento">. Complemento:</label>
+   </td>
+   <td>
+    <input type="text" name="complemento" size="4">
+   </td>
+</tr>
+</br>
+
+<br>
+<tr>
+   <td>
+    <label for="cidade">. Cidade: </label>
+   </td>
+
+   <td>
+    <input type="text" name="cidade">
+   </td>
+</tr>
+
+</br>
+
+<br>
+<tr>
+   <td>
+    <label for="estado">. Estado:Selecione um estado </label>
+   </td>
+
+   <td>
+    <select name="estado"> 
+    <option value="ac">Acre</option> 
+    <option value="al">Alagoas</option> 
+    <option value="am">Amazonas</option> 
+    <option value="ap">Amapá</option> 
+    <option value="ba">Bahia</option> 
+    <option value="ce">Ceará</option> 
+    <option value="df">Distrito Federal</option> 
+    <option value="es">Espírito Santo</option> 
+    <option value="go">Goiás</option> 
+    <option value="ma">Maranhão</option> 
+    <option value="mt">Mato Grosso</option> 
+    <option value="ms">Mato Grosso do Sul</option> 
+    <option value="mg">Minas Gerais</option> 
+    <option value="pa">Pará</option> 
+    <option value="pb">Paraíba</option> 
+    <option value="pr">Paraná</option> 
+    <option value="pe">Pernambuco</option> 
+    <option value="pi">Piauí</option> 
+    <option value="rj">Rio de Janeiro</option> 
+    <option value="rn">Rio Grande do Norte</option> 
+    <option value="ro">Rondônia</option> 
+    <option value="rs">Rio Grande do Sul</option> 
+    <option value="rr">Roraima</option> 
+    <option value="sc">Santa Catarina</option> 
+    <option value="se">Sergipe</option> 
+    <option value="sp">São Paulo</option> 
+    <option value="to">Tocantins</option> 
+   </select>
+   </td>
+</tr>
+
+</br>
+
+<br>
+<tr>
+   <td>
+    <label for="cep">. CEP: </label>
+   </td>
+
+   <td>
+    <input type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
+   </td>
+</tr>
+</br>
+
+ </table>
+</fieldset>
+
+<br />
+
+<!-- Perfil -->
+<fieldset>
+ 
+ <table cellspacing="10">
+
+<h2> Perfil</h2> 
+
+<tr>
+   <td>
+    <label for="imagem">. Foto:</label>
+   </td>
+
+   <td>
+    <input type="file" name="imagem" >
+   </td>
+</tr>
+
+<br>
+<tr>
+    <td>
+     <label>  Tamanho máximo de 700k, JPG, GIF, PNG.</label>
+    </td>
+  </tr>
+</br>
+
+<tr>
+   <td>
+    <label for="nome1">. Nome: </label>
+   </td>
+
+   <td>
+    <input type="text" name="nome1">
+   </td>
+</tr>
+
+<tr>
+   <td>
+    <label for="site">. Site: </label>
+   </td>
+
+   <td>
+    <input type="text" name="site">
+   </td>
+</tr>
+
+<br>
+<tr>
+    <td>
+     <label>   Tem um site ou um blog? Coloque aqui.</label>
+    </td>
+  </tr>
+</br>
+
+<tr>
+   <td>
+    <label for="biografia">. Biografia: </label>
+   </td>
+
+   <td>
+    <input type="text" name="biografia">
+   </td>
+</tr>
+
+<tr>
+   <td>
+    <label for="genero">. Gênero: </label>
+    <input type = "radio" name = "genero" value = "male">
+    Masculino
+    <input type = "radio" name = "genero" value = "female">
+    Feminino
+    <input type = "radio" name = "genero" value = "other">
+    Outro
+   </td>
+</tr>
+
+ </table>
+</fieldset>
+
+<h2> E-mails </h2> 
+<br>
+<tr>
+   <td>
+    <input type="checkbox" name="autoriza1">
+    Tudo bem em enviar e-mails com mensagens de outros usuário
+   </td>
+</tr>
+</br>
+
+<br>
+<tr>
+   <td>
+    <input type="checkbox" name="autoriza2">
+    Tudo bem em enviar e-mails com promoções sobre outros produtos
+   </td>
+</tr>
+</br>
+
+<form name = "input" action = "html_form_action.asp"
+method get>
+<input type="submit" value = "Criar conta">
+<input type="reset" value="Limpar">
+</form>
+
+ </body>
+</html>
